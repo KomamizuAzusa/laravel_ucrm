@@ -4,17 +4,16 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Authentication Language Lines
+    | 認証用の言語ライン
     |--------------------------------------------------------------------------
     |
-    | The following language lines are used during authentication for various
-    | messages that we need to display to the user. You are free to modify
-    | these language lines according to your application's requirements.
+    | 以下の言語ラインは、認証時にユーザーに表示するメッセージです。
+    | これらの言語ラインは、アプリケーションの要件に応じて自由に変更できます。
     |
     */
 
-    'failed' => 'These credentials do not match our records.',
-    'password' => 'The provided password is incorrect.',
-    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
+    'failed' => '認証情報が登録されているものと一致しません。',
+    'password' => '入力されたパスワードが正しくありません。',
+    'throttle' => 'ログイン試行回数が多すぎます。:seconds秒後に再試行してください。',
 
 ];
